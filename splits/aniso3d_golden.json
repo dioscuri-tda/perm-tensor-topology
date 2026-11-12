@@ -1,0 +1,24 @@
+{
+  "dataset": "DATA/aniso3d",
+  "labels": "DATA/aniso3d/permeability.csv",
+  "created": "2026-09-23",
+  "seed": 12345,
+  "filter": "conv_fx == 1 and conv_fy == 1 and conv_fz == 1",
+  "n_total": 5000,
+  "n_golden": 999,
+  "n_pool": 4001,
+  "stratified_by": "stratum",
+  "counts": {
+    "golden": {
+      "mod": 333,
+      "strong": 333,
+      "iso": 333
+    },
+    "pool": {
+      "iso": 1334,
+      "mod": 1334,
+      "strong": 1333
+    }
+  },
+  "sha256_golden_ids": "2609c9efa1f31d1e608c33e089f7ef9bb70bb5f578eeb920af6eb8babec8fb14"
+}

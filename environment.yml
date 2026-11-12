@@ -1,0 +1,18 @@
+# conda env create -f environment.yml && conda activate perm-tensor-topology
+# Versions are the ones used for the paper.
+name: perm-tensor-topology
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - scipy=1.14.0
+  - pandas=2.2.2
+  - numba=0.60.0
+  - gudhi=3.11.0
+  - catboost=1.2.3
+  - scikit-learn=1.5.1
+  - shap=0.47.2
+  - scikit-image=0.25.0
+  - matplotlib=3.9.2
+  - tqdm=4.66.5
